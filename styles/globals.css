@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .heading1 {
+    @apply font-montserrat font-black text-HM md:text-HM tracking-tight2;
+  }
+  .heading2 {
+    @apply font-montserrat font-black text-HM md:text-HM tracking-tight3;
+  }
+  .subheading1 {
+    @apply font-montserrat font-semibold text-SH tracking-normal;
+  }
+  .subheading2 {
+    @apply font-montserrat font-medium text-SH tracking-normal;
+  }
+  .button {
+    @apply font-montserrat font-semibold text-BTN tracking-tight1;
+  }
+  .body {
+    @apply font-montserrat font-normal text-BDY tracking-normal;
+  }
+  .smallbody {
+    @apply font-montserrat font-normal text-SBDY tracking-normal;
+  }
+}
