@@ -15,7 +15,7 @@ module.exports = {
       },
       fontSize: {
         HD: ['60px', '60px'],
-        HM: ['52px', '60px'],
+        HM: ['48px', '60px'],
         SH: ['18px', '28px'],
         BTN: ['16px', '24px'],
         BDY: ['18px', '28px'],
