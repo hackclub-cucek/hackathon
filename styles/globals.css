@@ -4,24 +4,31 @@
 
 @layer components {
   .heading1 {
-    @apply font-montserrat font-black text-HM md:text-HM tracking-tight2;
+    @apply font-montserrat text-HM font-black tracking-tight2 md:text-HM;
   }
   .heading2 {
-    @apply font-montserrat font-black text-HM md:text-HM tracking-tight3;
+    @apply font-montserrat text-HM font-black tracking-tight3 md:text-HM;
   }
   .subheading1 {
-    @apply font-montserrat font-semibold text-SH tracking-normal;
+    @apply font-montserrat text-SH font-semibold tracking-normal;
   }
   .subheading2 {
-    @apply font-montserrat font-medium text-SH tracking-normal;
+    @apply font-montserrat text-SH font-medium tracking-normal;
   }
   .button {
-    @apply font-montserrat font-semibold text-BTN tracking-tight1;
+    @apply font-montserrat text-BTN font-semibold tracking-tight1;
   }
   .body {
-    @apply font-montserrat font-normal text-BDY tracking-normal;
+    @apply font-montserrat text-BDY font-normal tracking-normal;
   }
   .smallbody {
-    @apply font-montserrat font-normal text-SBDY tracking-normal;
+    @apply font-montserrat text-SBDY font-normal tracking-normal;
+  }
+}
+
+@layer base {
+  .outline_text {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px white;
   }
 }
