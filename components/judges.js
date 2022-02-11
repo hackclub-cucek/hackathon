@@ -36,13 +36,13 @@ export default function Judges() {
       <div className='mx-auto grid max-w-7xl grid-cols-2 gap-10 px-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5'>
         {judgesData.map((item, index) => {
           return (
-            <div className='w-full space-y-4'>
+            <div key={index} className='w-full space-y-4'>
               <img
                 src={item.img}
                 alt={item.name}
                 className='aspect-square w-full  rounded-[12px] object-cover '
               />
-              <div className='flex flex-col py-2 items-center justify-center space-y-[2px] rounded-xl border-2 border-accent'>
+              <div className='flex flex-col items-center justify-center space-y-[2px] rounded-xl border-2 border-accent py-2'>
                 <p>{item.name}</p>
                 <p>{item.post}</p>
               </div>
