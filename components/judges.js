@@ -29,8 +29,8 @@ export default function Judges() {
     },
   ];
   return (
-    <div className='relative mx-auto max-w-7xl bg-dark px-4 pt-48 text-light '>
-      <h1 className='heading2 outline_text absolute text-light left-7 -mt-10 uppercase'>
+    <div className='bg-dark text-light relative mx-auto max-w-7xl px-4 pt-48 '>
+      <h1 className='heading2 outline_text text-light absolute left-7 -mt-10 uppercase'>
         judges
       </h1>
       <div className='mx-auto grid max-w-7xl grid-cols-2 gap-10 px-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5'>
@@ -42,9 +42,9 @@ export default function Judges() {
                 alt={item.name}
                 className='aspect-square w-full  rounded-[12px] object-cover '
               />
-              <div className='flex flex-col items-center justify-center space-y-[2px] rounded-xl border-2 border-accent py-2'>
-                <p className='body text-light'>{item.name}</p>
-                <p className='smallbody text-light'>{item.post}</p>
+              <div className='border-accent flex flex-col items-center justify-center space-y-[2px] rounded-xl border-2 py-2'>
+                <p className='body text-light text-center'>{item.name}</p>
+                <p className='smallbody text-light text-center'>{item.post}</p>
               </div>
             </div>
           );
