@@ -46,7 +46,7 @@ export default function Footer() {
           </svg>
         </div>
       </div>
-      <div>
+      <div className='space-y-1 pt-10 pb-9 text-light smallbody'>
         <p>All Rights Reserved 2022</p>
         <p>Hack Club CUCEK & TinkerHub CUCEK</p>
       </div>

@@ -25,7 +25,10 @@ export default function Example() {
   return (
     <div className='mx-auto max-w-7xl px-4 pt-48'>
       <div className='flex flex-col justify-between space-y-8 md:flex-row md:space-y-0'>
-        <div className='flex-1'>
+        <div className='relative flex-1'>
+          <h1 className='heading2 outline_text absolute -mt-10 uppercase'>
+            about
+          </h1>
           <img
             src='https://images.unsplash.com/photo-1560523159-6b681a1e1852?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'
             alt='talk'
@@ -42,14 +45,14 @@ export default function Example() {
               >
                 <Disclosure>
                   <Disclosure.Button className='flex w-full justify-between rounded-full bg-dark px-4 py-2 text-left text-sm font-medium text-light  focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75'>
-                    <span>{item.title}</span>
+                    <span className='text-accent'>{item.title}</span>
                     <ChevronUpIcon
                       className={`${
                         open ? 'rotate-90 transform' : ''
                       } h-5 w-5 text-accent transition`}
                     />
                   </Disclosure.Button>
-                  <Disclosure.Panel className='px-4 pt-4 pb-2 text-sm text-gray-500'>
+                  <Disclosure.Panel className='px-4 pt-4 pb-2 text-sm text-light'>
                     {item.desc}
                   </Disclosure.Panel>
                 </Disclosure>
