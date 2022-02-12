@@ -38,21 +38,19 @@ export default function Example() {
         <div className='mx-auto w-full max-w-md space-y-4 rounded-2xl bg-dark p-2 md:pl-10 '>
           {disclosureData.map((item, index) => {
             return (
-              <div
-                key={index}
-                className='rounded-xl border border-accent'
-                onClick={() => setOpen(!open)}
-              >
+              <div key={index} className='rounded-xl border border-accent'>
                 <Disclosure>
-                  <Disclosure.Button className='flex w-full justify-between rounded-full bg-dark px-4 py-2 text-left text-sm font-medium text-light  focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75'>
-                    <span className='text-accent'>{item.title}</span>
-                    <ChevronUpIcon
-                      className={`${
-                        open ? 'rotate-90 transform' : ''
-                      } h-5 w-5 text-accent transition`}
-                    />
-                  </Disclosure.Button>
-                  <Disclosure.Panel className='px-4 pt-4 pb-2 text-sm text-light'>
+                  <div onClick={() => setOpen(!open)}>
+                    <Disclosure.Button className='flex w-full justify-between rounded-full bg-dark px-4 py-2 text-left text-sm font-medium text-light  focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75'>
+                      <span className='body text-accent'>{item.title}</span>
+                      <ChevronUpIcon
+                        className={`${
+                          !open ? 'rotate-90 transform' : ''
+                        } h-5 w-5 text-accent transition`}
+                      />
+                    </Disclosure.Button>
+                  </div>
+                  <Disclosure.Panel className='body px-4 pt-4 pb-2 text-sm text-light'>
                     {item.desc}
                   </Disclosure.Panel>
                 </Disclosure>
