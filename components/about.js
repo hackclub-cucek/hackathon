@@ -6,7 +6,7 @@ export default function About() {
             <div className="max-w-7xl mx-auto px-4">
                 <div className='flex md:flex-row flex-col justify-between space-y-8 md:space-y-0'>
                     <div className='relative flex-1'>
-                        <h1 className='heading2 uppercase absolute -mt-10'>about</h1>
+                        <h1 className='heading2 uppercase absolute -mt-10 outline_text'>about</h1>
                         <img src="./images/about.png" alt="about" className='w-full h-auto aspect-video' />
                     </div>
                     <div className='flex flex-col md:pl-10 flex-1'>
