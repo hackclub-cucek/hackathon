@@ -5,10 +5,10 @@ export default function Footer() {
     <div className='mx-auto max-w-7xl  px-4 pt-48 '>
       <div className='grid-cols-6 lg:grid'>
         <div className='col-span-4'>
-          <p className='heading2 text-HD text-light pb-4 md:pb-0'>
+          <p className='heading1 text-light pb-4 md:pb-0'>
             Have queries?
           </p>
-          <p className='outline_text heading2 text-HD'>
+          <p className='heading2 text-light'>
             Contact us through our socials.
           </p>
         </div>

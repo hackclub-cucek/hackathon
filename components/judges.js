@@ -29,26 +29,26 @@ export default function Judges() {
     },
   ];
   return (
-    <div className='bg-dark text-light relative mx-auto max-w-7xl px-4 pt-48 '>
-      <h1 className='heading2 outline_text text-light absolute left-7 -mt-10 uppercase'>
-        judges
-      </h1>
-      <div className='mx-auto grid max-w-7xl grid-cols-2 gap-10 px-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5'>
-        {judgesData.map((item, index) => {
-          return (
-            <div key={index} className='w-full space-y-4'>
-              <img
-                src={item.img}
-                alt={item.name}
-                className='aspect-square w-full  rounded-[12px] object-cover '
-              />
-              <div className='border-accent flex flex-col items-center justify-center space-y-[2px] rounded-xl border-2 py-2'>
-                <p className='body text-light text-center'>{item.name}</p>
-                <p className='smallbody text-light text-center'>{item.post}</p>
+    <div className='bg-dark text-light pt-48'>
+      <div className="max-w-7xl mx-auto px-4">
+        <h1 className='heading2 text-light uppercase absolute -mt-10'>judges</h1>
+        <div className='grid grid-cols-2 xl:gap-x-10 lg:gap-x-8 md:gap-x-6 gap-x-4 gap-y-8 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5'>
+          {judgesData.map((item, index) => {
+            return (
+              <div key={index} className='space-y-3'>
+                <img
+                  src={item.img}
+                  alt={item.name}
+                  className='aspect-square w-full rounded-xl object-cover'
+                />
+                <div className='border-accent flex flex-col items-center justify-center space-y-[2px] rounded-xl border-2 py-2'>
+                  <p className='button text-light text-center'>{item.name}</p>
+                  <p className='smallbody text-light text-center'>{item.post}</p>
+                </div>
               </div>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
     </div>
   );
