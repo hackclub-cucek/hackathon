@@ -32,7 +32,7 @@ export default function Example() {
           <img
             src='https://images.unsplash.com/photo-1560523159-6b681a1e1852?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'
             alt='talk'
-            className='aspect-video h-auto w-full rounded-xl'
+            className='aspect-video h-auto w-full max-w-2xl rounded-xl'
           />
         </div>
         <div className='mx-auto w-full max-w-md space-y-4 rounded-2xl bg-dark p-2 md:pl-10 '>
