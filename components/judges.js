@@ -43,8 +43,8 @@ export default function Judges() {
                 className='aspect-square w-full  rounded-[12px] object-cover '
               />
               <div className='flex flex-col items-center justify-center space-y-[2px] rounded-xl border-2 border-accent py-2'>
-                <p>{item.name}</p>
-                <p>{item.post}</p>
+                <p className='body text-light'>{item.name}</p>
+                <p className='smallbody text-light'>{item.post}</p>
               </div>
             </div>
           );
