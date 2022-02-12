@@ -26,13 +26,13 @@ export default function Example() {
     <div className='mx-auto max-w-7xl px-4 pt-48'>
       <div className='flex flex-col justify-between space-y-8 md:flex-row md:space-y-0'>
         <div className='relative flex-1'>
-          <h1 className='heading2 outline_text absolute -mt-10 uppercase'>
-            about
+          <h1 className='heading2 outline_text absolute text-light -mt-10 uppercase'>
+            faq
           </h1>
           <img
             src='https://images.unsplash.com/photo-1560523159-6b681a1e1852?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'
             alt='talk'
-            className='aspect-video h-auto w-full rounded-xl'
+            className='aspect-video h-auto w-full max-w-2xl rounded-xl'
           />
         </div>
         <div className='mx-auto w-full max-w-md space-y-4 rounded-2xl bg-dark p-2 md:pl-10 '>
