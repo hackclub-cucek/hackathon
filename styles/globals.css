@@ -29,7 +29,7 @@
 @layer base {
   .outline_text {
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px #F5F5F5;
+    -webkit-text-stroke: 1px #f5f5f5;
   }
   ::-webkit-scrollbar {
     width: 10px;
