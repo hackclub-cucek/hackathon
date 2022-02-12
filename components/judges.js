@@ -30,7 +30,7 @@ export default function Judges() {
   ];
   return (
     <div className='relative mx-auto max-w-7xl bg-dark px-4 pt-48 text-light '>
-      <h1 className='heading2 outline_text absolute left-7 -mt-10 uppercase'>
+      <h1 className='heading2 outline_text absolute text-light left-7 -mt-10 uppercase'>
         judges
       </h1>
       <div className='mx-auto grid max-w-7xl grid-cols-2 gap-10 px-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5'>

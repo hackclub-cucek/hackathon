@@ -6,7 +6,7 @@ export default function Stack() {
       <div className='mx-auto max-w-7xl px-4'>
         <div className='flex flex-col justify-between space-y-8 md:flex-row md:space-y-0'>
           <div className='relative flex-1'>
-            <h1 className='heading2 absolute -mt-10 uppercase outline_text '>stack</h1>
+            <h1 className='heading2 absolute text-light -mt-10 uppercase outline_text '>stack</h1>
             <img
               src='./images/stack.png'
               alt='stack'

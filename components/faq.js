@@ -26,7 +26,7 @@ export default function Example() {
     <div className='mx-auto max-w-7xl px-4 pt-48'>
       <div className='flex flex-col justify-between space-y-8 md:flex-row md:space-y-0'>
         <div className='relative flex-1'>
-          <h1 className='heading2 outline_text absolute -mt-10 uppercase'>
+          <h1 className='heading2 outline_text absolute text-light -mt-10 uppercase'>
             faq
           </h1>
           <img
