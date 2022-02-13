@@ -20,7 +20,7 @@ export default function Faq() {
             <Disclosure>
               {({ open }) => (
                 <>
-                  <Disclosure.Button className={`${open ? 'text-accent subheading1 pb-3' : 'text-light body pb-4'} flex justify-between w-full px-4 pt-4 text-left bg-transparent`}>
+                  <Disclosure.Button className={`${open ? 'text-accent subheading1 pb-3' : 'text-light body hover:subheading1 hover:text-accent pb-4'} flex justify-between w-full px-4 pt-4 text-left bg-transparent`}>
                     <span>Who can participate?</span>
                     <ArrowRightSLineIcon
                       className={`${open ? 'transform rotate-90' : ''
@@ -38,7 +38,7 @@ export default function Faq() {
             <Disclosure>
               {({ open }) => (
                 <>
-                  <Disclosure.Button className={`${open ? 'text-accent subheading1 pb-3' : 'text-light body pb-4'} flex justify-between w-full px-4 pt-4 text-left bg-transparent`}>
+                  <Disclosure.Button className={`${open ? 'text-accent subheading1 pb-3' : 'text-light body hover:subheading1 hover:text-accent pb-4'} flex justify-between w-full px-4 pt-4 text-left bg-transparent`}>
                     <span>Can we apply as a team?</span>
                     <ArrowRightSLineIcon
                       className={`${open ? 'transform rotate-90' : ''
@@ -56,7 +56,7 @@ export default function Faq() {
             <Disclosure>
               {({ open }) => (
                 <>
-                  <Disclosure.Button className={`${open ? 'text-accent subheading1 pb-3' : 'text-light body pb-4'} flex justify-between w-full px-4 pt-4 text-left bg-transparent`}>
+                  <Disclosure.Button className={`${open ? 'text-accent subheading1 pb-3' : 'text-light body hover:subheading1 hover:text-accent pb-4'} flex justify-between w-full px-4 pt-4 text-left bg-transparent`}>
                     <span>When will applications close?</span>
                     <ArrowRightSLineIcon
                       className={`${open ? 'transform rotate-90' : ''
@@ -74,7 +74,7 @@ export default function Faq() {
             <Disclosure>
               {({ open }) => (
                 <>
-                  <Disclosure.Button className={`${open ? 'text-accent subheading1 pb-3' : 'text-light body pb-4'} flex justify-between w-full px-4 pt-4 text-left bg-transparent`}>
+                  <Disclosure.Button className={`${open ? 'text-accent subheading1 pb-3' : 'text-light body hover:subheading1 hover:text-accent pb-4'} flex justify-between w-full px-4 pt-4 text-left bg-transparent`}>
                     <span>Where can we reach out for further questions?</span>
                     <ArrowRightSLineIcon
                       className={`${open ? 'transform rotate-90' : ''
