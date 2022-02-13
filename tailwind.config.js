@@ -27,6 +27,9 @@ module.exports = {
         'tight2': '0.015em',
         'tight3': '0.0225em',
       },
+      borderWidth: {
+        '25': '1.25px',
+      },
     },
   },
   plugins: [],

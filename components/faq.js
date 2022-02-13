@@ -16,7 +16,7 @@ export default function Example() {
           />
         </div>
         <div className='flex-1 md:pl-10 space-y-3'>
-          <div className='rounded-xl border-2 border-accent'>
+          <div className='rounded-xl border-25 border-accent'>
             <Disclosure>
               {({ open }) => (
                 <>
@@ -34,7 +34,7 @@ export default function Example() {
               )}
             </Disclosure>
           </div>
-          <div className='rounded-xl border-2 border-accent'>
+          <div className='rounded-xl border-25 border-accent'>
             <Disclosure>
               {({ open }) => (
                 <>
@@ -52,7 +52,7 @@ export default function Example() {
               )}
             </Disclosure>
           </div>
-          <div className='rounded-xl border-2 border-accent'>
+          <div className='rounded-xl border-25 border-accent'>
             <Disclosure>
               {({ open }) => (
                 <>
@@ -70,7 +70,7 @@ export default function Example() {
               )}
             </Disclosure>
           </div>
-          <div className='rounded-xl border-2 border-accent'>
+          <div className='rounded-xl border-25 border-accent'>
             <Disclosure>
               {({ open }) => (
                 <>

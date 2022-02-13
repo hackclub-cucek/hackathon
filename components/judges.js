@@ -3,27 +3,27 @@ import React from 'react';
 export default function Judges() {
   const judgesData = [
     {
-      img: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
+      img: './images/judges/1.jpeg',
       name: 'Siddharth N K',
       post: 'Engineer, Nokia',
     },
     {
-      img: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
+      img: './images/judges/2.jpeg',
       name: 'Zameel Pichen',
       post: 'CEO, Megham Labs',
     },
     {
-      img: 'https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
+      img: './images/judges/3.jpeg',
       name: 'Dianne Russell',
       post: 'Designer, Starbucks',
     },
     {
-      img: 'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
+      img: './images/judges/4.jpeg',
       name: 'Bessie Cooper',
       post: 'CTO, Louis Vuitton',
     },
     {
-      img: 'https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
+      img: './images/judges/5.jpeg',
       name: 'Jon Simmons',
       post: 'Advocate, Adobe',
     },
@@ -41,7 +41,7 @@ export default function Judges() {
                   alt={item.name}
                   className='aspect-square w-full rounded-xl object-cover'
                 />
-                <div className='border-accent flex flex-col items-center justify-center space-y-[2px] rounded-xl border-2 py-2'>
+                <div className='border-accent flex flex-col items-center justify-center space-y-[2px] rounded-xl border-25 py-2'>
                   <p className='button text-light text-center'>{item.name}</p>
                   <p className='smallbody text-light text-center'>{item.post}</p>
                 </div>
