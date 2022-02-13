@@ -27,7 +27,7 @@ export default function Footer() {
           </div>
         </a>
       </div>
-      <div className='flex flex-col space-y-1 smallbody pt-10 text-light'>
+      <div className='flex flex-col space-y-1 smallbody pt-10 md:pb-9 pb-6 text-light'>
         <p>All Rights Reserved 2022</p>
         <p>Hack Club CUCEK & TinkerHub CUCEK</p>
       </div>
