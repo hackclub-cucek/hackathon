@@ -1,7 +1,7 @@
 import { Disclosure } from '@headlessui/react';
 import ArrowRightSLineIcon from 'remixicon-react/ArrowRightSLineIcon';
 
-export default function Example() {
+export default function Faq() {
   return (
     <div className='mx-auto max-w-7xl px-4 pt-48'>
       <div className='flex flex-col justify-between space-y-8 md:flex-row md:space-y-0'>
