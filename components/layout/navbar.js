@@ -3,25 +3,29 @@ import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import CloseFillIcon from 'remixicon-react/CloseFillIcon';
 import Menu5FillIcon from 'remixicon-react/Menu5FillIcon';
-
+import { Link } from 'react-scroll';
 
 
 const solutions = [
   {
     name: 'Home',
-    href: '#',
+    href: 'home',
   },
   {
     name: 'About',
-    href: '#',
+    href: 'about',
   },
   {
     name: 'Prizes',
-    href: '#',
+    href: 'prize',
   },
   {
-    name: 'Sponsors',
-    href: '#',
+    name: 'Judges',
+    href: 'judges',
+  },
+  {
+    name: 'Faqs',
+    href: 'faq',
   },
 ]
 export default function Navbar() {
@@ -47,12 +51,10 @@ export default function Navbar() {
           </div>
           <Popover.Group as="nav" className="hidden md:flex space-x-16">
             {solutions.map((item) => (
-              <a
-                key={item.name}
-                href={item.href}
-                className="button text-light hover:text-accent cursor-pointer">
+              <Link key={item.name} to={item.href} smooth={true}
+                className="button text-light hover:text-accent focus:text-accent active:text-accent cursor-pointer">
                 {item.name}
-              </a>
+              </Link>
             ))}
           </Popover.Group>
         </div>
@@ -88,13 +90,10 @@ export default function Navbar() {
               <div className="mt-6">
                 <nav className="grid gap-y-8">
                   {solutions.map((item) => (
-                    <a
-                      key={item.name}
-                      href={item.href}
-                      className="-m-3 p-3 flex items-center rounded-md hover:bg-light/30 text-light hover:text-accent"
-                    >
+                    <Link key={item.name} to={item.href} smooth={true}
+                      className="-m-3 p-3 flex items-center rounded-md hover:bg-light/30 text-light hover:text-accent">
                       <span className="ml-3 text-base font-medium">{item.name}</span>
-                    </a>
+                    </Link>
                   ))}
                 </nav>
               </div>

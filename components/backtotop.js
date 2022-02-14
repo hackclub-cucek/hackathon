@@ -22,7 +22,6 @@ export default function BackToTop() {
 
     useEffect(() => {
         window.addEventListener('scroll', toggleVisibility);
-
         return () => {
             window.removeEventListener('scroll', toggleVisibility);
         };
@@ -32,10 +31,8 @@ export default function BackToTop() {
             <button
                 type='button'
                 onClick={scrollToTop}
-                className={
-                    isVisible ? 'opacity-100' : 'opacity-0',
-                    'inline-flex items-center p-3 rounded-full shadow-sm text-light bg-accent transition-opacity'
-                }
+                className={`${isVisible ? 'opacity-100' : 'opacity-0'}
+                    inline-flex items-center p-3 rounded-full shadow-sm text-light bg-accent transition-opacity `}
             >
                 <ArrowUpSLineIcon className='h-6 w-6' aria-hidden='true' />
             </button>

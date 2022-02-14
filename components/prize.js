@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Prize() {
     return (
-        <div className='bg-dark text-light pt-48'>
+        <div id='prize' className='bg-dark text-light pt-48'>
             <div className="max-w-7xl mx-auto px-4">
                 <div className='flex md:flex-row-reverse flex-col justify-between space-y-8 md:space-y-0'>
                     <div className='relative flex-1'>

@@ -29,7 +29,7 @@ export default function Judges() {
     },
   ];
   return (
-    <div className='bg-dark text-light pt-48'>
+    <div id='judges' className='bg-dark text-light pt-48'>
       <div className="max-w-7xl mx-auto px-4">
         <h1 className='heading2 text-light uppercase absolute -mt-10'>judges</h1>
         <div className='grid grid-cols-2 xl:gap-x-10 lg:gap-x-8 md:gap-x-6 gap-x-4 gap-y-8 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5'>

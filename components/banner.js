@@ -3,7 +3,7 @@ import ArrowRightLineIcon from 'remixicon-react/ArrowRightLineIcon';
 
 export default function Banner() {
   return (
-    <div className='bg-dark text-light'>
+    <div id='home' className='bg-dark text-light'>
       <div className="max-w-7xl mx-auto px-4">
         <div className='flex justify-between items-center pt-24 md:pt-40'>
           <div>

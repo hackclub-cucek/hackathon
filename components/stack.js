@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Stack() {
   return (
-    <div className='bg-dark pt-48 text-light'>
+    <div id='stack' className='bg-dark pt-48 text-light'>
       <div className='mx-auto max-w-7xl px-4'>
         <div className='flex flex-col justify-between space-y-8 md:flex-row md:space-y-0'>
           <div className='relative flex-1'>

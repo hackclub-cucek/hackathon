@@ -3,7 +3,7 @@ import ArrowRightSLineIcon from 'remixicon-react/ArrowRightSLineIcon';
 
 export default function Faq() {
   return (
-    <div className='mx-auto max-w-7xl px-4 pt-48'>
+    <div id='faq' className='mx-auto max-w-7xl px-4 pt-48'>
       <div className='flex flex-col justify-between space-y-8 md:flex-row md:space-y-0'>
         <div className='relative flex-1'>
           <h1 className='heading2 text-light absolute -mt-10 uppercase'>
