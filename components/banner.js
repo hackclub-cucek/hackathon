@@ -6,7 +6,7 @@ export default function Banner() {
     <div id='home' className='bg-dark text-light'>
       <div className="max-w-7xl mx-auto px-4">
         <div className='flex justify-between items-center pt-24 md:pt-40'>
-          <div>
+          <div className='max-w-xl'>
             <p className='subheading2 text-accent md:pb-4 pb-3'>Feb 21-28, 2022</p>
             <h1 className='heading1 md:pb-2'>Hack Kuttanad</h1>
             <h1 className='heading2 md:pb-2'>CUCEK</h1>
