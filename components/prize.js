@@ -10,18 +10,18 @@ export default function Prize() {
                         <img src="./images/prize.png" alt="prize" className='w-full h-auto aspect-video' />
                     </div>
                     <div className='flex flex-col md:pr-10 flex-1'>
-                        <p className='body text-accent pb-3'>
+                        <p className='subheading1 text-accent pb-3'>
                             1st Prize
                         </p>
                         <p className='body pb-10'>
                             Dictum habitant amet lacus quam morbi diam. Sit posuere phasellus pretium. Dictum habitant amet lacus quam morbi diam.                         </p>
-                        <p className='body text-accent pb-3'>
+                        <p className='subheading1 text-accent pb-3'>
                             2nd Prize
                         </p>
                         <p className='body pb-10'>
                             Dictum habitant amet lacus quam morbi diam. Sit posuere phasellus pretium. Dictum habitant amet lacus quam morbi diam.
                         </p>
-                        <p className='body text-accent pb-3'>
+                        <p className='subheading1 text-accent pb-3'>
                             3rd Prize
                         </p>
                         <p className='body'>

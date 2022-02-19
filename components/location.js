@@ -10,13 +10,13 @@ export default function Location() {
                         <img src="./images/location.png" alt="location" className='w-full h-auto aspect-video' />
                     </div>
                     <div className='flex flex-col md:pr-10 flex-1'>
-                        <p className='body text-accent pb-3'>
+                        <p className='subheading1 text-accent pb-3'>
                             When?
                         </p>
                         <p className='body pb-10'>
                             Dictum habitant amet lacus quam morbi diam. <span className='text-accent'>Feb 21-28, 2022</span> phasellus pretium.
                         </p>
-                        <p className='body text-accent pb-3'>
+                        <p className='subheading1 text-accent pb-3'>
                             Where?
                         </p>
                         <p className='body'>

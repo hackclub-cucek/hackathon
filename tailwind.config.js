@@ -13,6 +13,7 @@ module.exports = {
         'dark': '#0A0A0A',
         'light': '#F5F5F5',
         'accent': '#F6490D',
+        'lightdark': '#cecece',
       },
       fontSize: {
         HD: ['60px', '60px'],

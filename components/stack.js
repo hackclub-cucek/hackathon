@@ -14,22 +14,22 @@ export default function Stack() {
             />
           </div>
           <div className='flex flex-1 flex-col md:pl-10'>
-            <p className='body pb-3 text-accent'>Web Application</p>
+            <p className='subheading1 pb-3 text-accent'>Web Application</p>
             <p className='body pb-10'>
               Dictum habitant amet lacus quam morbi diam. Sit posuere phasellus
               pretium. Dictum habitant amet lacus quam morbi diam.{' '}
             </p>
-            <p className='body pb-3 text-accent'>Flutter Application</p>
+            <p className='subheading1 pb-3 text-accent'>Flutter Application</p>
             <p className='body pb-10'>
               Dictum habitant amet lacus quam morbi diam. Sit posuere phasellus
               pretium. Dictum habitant amet lacus quam morbi diam.
             </p>
-            <p className='body pb-3 text-accent'>Machine Learning</p>
+            <p className='subheading1 pb-3 text-accent'>Machine Learning</p>
             <p className='body pb-10'>
               Dictum habitant amet lacus quam morbi diam. Sit posuere phasellus
               pretium. Dictum habitant amet lacus quam.
             </p>
-            <p className='body pb-3 text-accent'>Python-Django</p>
+            <p className='subheading1 pb-3 text-accent'>Python-Django</p>
             <p className='body'>
               Dictum habitant amet lacus quam morbi diam. Sit posuere phasellus
               pretium. Dictum habitant.
