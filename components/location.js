@@ -14,13 +14,13 @@ export default function Location() {
                             When?
                         </p>
                         <p className='body pb-10'>
-                            Dictum habitant amet lacus quam morbi diam. <span className='text-accent'>Feb 21-28, 2022</span> phasellus pretium.
+                            The hackathon will be conducted from <span className='text-accent'>17th to 24th March 2022</span>.
                         </p>
                         <p className='subheading1 text-accent pb-3'>
                             Where?
                         </p>
                         <p className='body'>
-                            Dictum habitant amet <span className='text-accent'>100% Remote</span> morbi diam. Sit posuere phasellus pretium.
+                            The hackathon will be conducted in <span className='text-accent'>Hybrid Mode</span>. Your group development activities can also be done at the campus and rest at your hostels. Also we will be having an online presence at discord and some sessions will be in online mode.
                         </p>
                     </div>
                 </div>

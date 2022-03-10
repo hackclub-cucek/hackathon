@@ -28,7 +28,7 @@ export default function Faq() {
                     />
                   </Disclosure.Button>
                   <Disclosure.Panel className="px-4 pb-4 body text-light">
-                    Dictum habitant amet lacus quam morbi diam. Sit posuere phasellus pretium.
+                    All the students of CUCEK can participate.
                   </Disclosure.Panel>
                 </>
               )}
@@ -46,7 +46,7 @@ export default function Faq() {
                     />
                   </Disclosure.Button>
                   <Disclosure.Panel className="px-4 pb-4 body text-light">
-                    Dictum habitant amet lacus quam morbi diam. Sit posuere phasellus pretium.
+                    Yes! You can apply as a team of 2 to 4 members.
                   </Disclosure.Panel>
                 </>
               )}
@@ -64,7 +64,7 @@ export default function Faq() {
                     />
                   </Disclosure.Button>
                   <Disclosure.Panel className="px-4 pb-4 body text-light">
-                    Dictum habitant amet lacus quam morbi diam. Sit posuere phasellus pretium.
+                    You can apply on or before 15th March 2022.
                   </Disclosure.Panel>
                 </>
               )}
@@ -82,7 +82,7 @@ export default function Faq() {
                     />
                   </Disclosure.Button>
                   <Disclosure.Panel className="px-4 pb-4 body text-light">
-                    Dictum habitant amet lacus quam morbi diam. Sit posuere phasellus pretium.
+                    For further queries you can connect with us at  <a className='text-accent' href="mailto:hello@kuttanadhacks.com">hello@kuttanadhacks.com</a>
                   </Disclosure.Panel>
                 </>
               )}

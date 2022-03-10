@@ -11,10 +11,10 @@ export default function About() {
                     </div>
                     <div className='flex flex-col md:pl-10 flex-1'>
                         <p className='body pb-8'>
-                            Dictum habitant amet lacus quam morbi diam. Sit posuere phasellus pretium, enim, donec nec. Et fermentum dictumst quam aliquam velit. Consectetur mi odio ullamcorper montes, urna et. Nunc pulvinar sed tempus consectetur cras ipsum congue feugiat velit.
+                        <span className='subheading1'>Hack Club CUCEK and TinkerHub CUCEK presents Hack Kuttanadu 2022</span>. We aim to bring talented students to develop innovative solutions to real world problems at Kuttanadu and provide a friendly yet competitive environment where teams can bring out the best in themselves.
                         </p>
                         <p className='body'>
-                            Consectetur mi odio ullamcorper montes, urna et. Nunc pulvinar sed tempus consectetur cras ipsum congue feugiat velit.
+                        Prove your worth in this hackathon by ideating, innovating and developing meaningful solutions solutions that positively impact the society. we are there to guide you along the way.
                         </p>
                     </div>
                 </div>
